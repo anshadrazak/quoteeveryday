@@ -1,0 +1,58 @@
+.quote {
+    margin-left: 10%;
+    width: 100%;
+    color: #ffff;
+    font-size: 6rem;
+}
+
+.author {
+    color: #ffff;
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 3rem;
+    width: fit-content;
+}
+
+.maincont {
+    width: fit-content;
+   
+}
+
+.addcont {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.addmsg {
+    
+    color: #ffff;
+}
+
+.namemsg {
+    
+    color: #ffff;
+}
+
+.msginp {
+    min-width: 50%;
+    width: fit-content;
+    min-height: 30px;
+    height: fit-content;
+}
+.nameinp {
+    min-width: 50%;
+    width: fit-content;
+    min-height: 30px;
+    height: fit-content;
+}
+
+.submitbtn{
+    background-color: #ffff;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.smsg {
+    color: #ffff;
+}
