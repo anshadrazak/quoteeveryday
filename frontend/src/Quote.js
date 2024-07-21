@@ -10,7 +10,7 @@ const Quote = () => {
 
     useEffect(() => {
         const fetchMsg = async () => {
-            const response = await fetch('http://localhost:5000/getmsg', {
+            const response = await fetch('https://backend-eta-lyart.vercel.app/getmsg', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -37,7 +37,7 @@ const Quote = () => {
 
     const uploadmsg = async () => {
         try {
-            const response = await fetch('http://localhost:5000/upload', {
+            const response = await fetch('https://backend-eta-lyart.vercel.app/upload', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
